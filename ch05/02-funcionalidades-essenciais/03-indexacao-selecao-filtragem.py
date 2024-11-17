@@ -22,7 +22,10 @@ obj[[1, 3]]
 obj[obj < 2]
 
 #%%
-# Selecionando usando loc
+# Selecionando usando loc (usado para rótulos)
 obj.loc[['b', 'a', 'd']]
 
 #%%
+# Selecionando usando iloc (usado para inteiros)
+obj.iloc[[1, 3]]
+
