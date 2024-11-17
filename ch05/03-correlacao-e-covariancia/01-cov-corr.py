@@ -2,11 +2,11 @@
 import pandas as pd
 
 #%%
-price = pd.read_pickle('/home/vladimir/Documents/Estudos/pydata-book/ch05/03-correlacao-e-covariancia/data/yahoo_price.pkl')
+price = pd.read_pickle('/data/yahoo_price.pkl')
 price.head()
 
 #%%
-volume = pd.read_pickle('/home/vladimir/Documents/Estudos/pydata-book/ch05/03-correlacao-e-covariancia/data/yahoo_volume.pkl')
+volume = pd.read_pickle('/data/yahoo_volume.pkl')
 volume.head()
 
 #%%
